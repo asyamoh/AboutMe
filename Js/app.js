@@ -12,7 +12,7 @@ if (pet == 'YES' || pet == 'Y') {
      } else if (pet == 'NO' || pet == 'N') {
      
          alert ('Hurrayy!right')
-         console.log('RIGHT!'+firstQue)
+         console.log('RIGHT!'+pet)
     }
 
        let month = prompt ('is November my fvrt month of the year ?');
@@ -26,5 +26,11 @@ if (pet == 'YES' || pet == 'Y') {
         console.log('WRONGG' + month)
        }
 
-
-        
+       let hobby = prompt('do you think swimming is my hobby?');
+    hobby = hobby.toUpperCase()
+    if (hobby == 'YES' || hobby == 'Y') {
+     console.log('Amazing ,impressed!'+hobby)/     
+     alert('AMAZING!');
+    } else if (hobby == 'NO' || hobby == 'N') {
+    alert('sorry, Wrong ')
+    }
