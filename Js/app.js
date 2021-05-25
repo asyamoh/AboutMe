@@ -1,5 +1,5 @@
 
-'use strict'
+'use strict'; 
 
 let user = prompt('Hola, what is your name?');
     alert ('welcome! nice to meet you'+' ' + user)
@@ -17,17 +17,15 @@ if (pet == 'YES' || pet == 'Y') {
          alert ('Hurrayy!right')
          //console.log('RIGHT!'+pet)
     }
-
-       let month = prompt ('is November my fvrt month of the year ?');
-       month = month.toUpperCase('')
+      let month = prompt ('is November my fvrt month of the year ?');
+      month = month.toUpperCase('')
        if (month == 'YES'|| month == 'Y'){
            alert('wow! are we a close friends or something how did you know :P');
          //  console.log('RIGHT!'+ month)
        } else if (month == 'NO'|| 'N') {
-
         alert('it is very clear that we do not know each other :(')
-        //console.log('WRONGG' + month)
-       }
+      //console.log('WRONGG' + month)
+     }
 
        let hobby = prompt('do you think swimming is my hobby?');
     hobby = hobby.toUpperCase()
@@ -52,14 +50,59 @@ if (pet == 'YES' || pet == 'Y') {
 }
 
 
-let charachter = prompt ('do you think I am a calm person?');
-charachter = charachter.toUpperCase ()
 
-if (charachter == 'YES' || charachter == 'Y') {
-    alert ('No'+' '+ user + ' '+ 'I wish :(');
-} else if (charachter == 'NO' || charachter== 'N') {
-        alert('you are unfortunatly right !');
-    } 
 
-    alert ('thanks for you time' + ' ' + user+' ' +'have a good day :D' );
+
+
+
+
+
+let favColor = ['blue','white','red','pink'];
+let myColor = favColor[0]
+
+
+for (let index = 0 ; index < favColor.length; index++)
+
+let colorGuess = prompt ('guess my fvrt color?');
+
+if (colorGuess == favColor[0]){
+  alert ('right!')
+  break;
+
+}
+
+else if (colorGuess == favColor[2]){
+  colorGuess = prompt ('wrong!');
+}
+else if (colorGuess == favColor[3]){
+  colorGuess = prompt ('wrong!');
+}
+else if (colorGuess == favColor[4]){
+colorGuess = prompt ('wrong!');
+
+}
+else if (colorGuess == favColor[5]){
+  colorGuess = prompt ('wrong!');
+}
+
+else {
+  alert ('noo!wrong guess');
+   break;
+}
+
+ 
+
+ 
+
+
+
+  
+
+
+
+
+
+
+
+
 
