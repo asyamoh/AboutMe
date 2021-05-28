@@ -1,0 +1,117 @@
+body{
+  background-color: ivory;
+  }
+  
+  header{
+      color:#836f4a;
+      background-color: #f5e3c5;
+      height: 210px;
+      width: 96%;
+      margin-left: 2%;
+      margin:2%;
+      margin-right: 3%;
+      
+    }
+    header h1{
+      font-family: broadway;
+      text-align: center;
+      padding-top: 6%;
+      font-size: 40px;
+      
+    }
+    header nav{
+      position: relative;
+      padding-top:1%;
+      font-size: 16px;
+      font-family:comic sans ms; 
+      float: left;
+      padding-left:1%;
+    }   
+  
+    header nav ul li {
+      display: block;
+      padding-top: 10%;
+    }
+  
+    header nav ul li a {
+      color:#947e55;
+      text-decoration: none;
+      bottom: 2%;
+    }
+  
+    #first {
+      background-color:  rgb(255, 246, 232);
+      height:200px ;
+      text-align: center;
+      margin-left: 3.5%;
+      margin-right: 3.5%;
+      margin-top: 2%;
+      width: 93%;
+    }
+    
+    #first h1{
+      font-size: 24px;
+      padding-top: 30px;
+      font-family: Berlin Sans FB;
+      color: #836f4a
+    }
+    #first p {
+      font-size: 17px;
+      font-family: comic sans ms;
+      text-align: center;
+      color: #a08350;
+      padding-bottom: 1%;
+      padding-top: 1%;
+      padding-left:5%;
+    }
+    
+    #first ul li{ 
+      list-style: circle;
+      list-style-position: inside;    
+      font-size: 17px;
+      font-family: comic sans ms;
+      text-align: center;
+      color: #a08350;
+      padding-bottom: 1%;
+      padding-bottom: 1%;
+      padding-left: 5%;
+      
+    }
+    
+    #second {
+      background-color:#fff6e9;
+      margin-top: 2%;
+      text-align: center;
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+  
+      }
+  
+      #second p {
+        font-size: 24px;
+        font-family: Berlin Sans FB;
+        color: #a08350;
+        padding-bottom: 30px;
+        padding-left: 5%; 
+        padding-top: 30px;
+  
+        }
+  
+      #second ol li{ 
+        list-style-type: decimal;
+        list-style-position: inside;    
+        font-size: 17px;
+        font-family: comic sans ms;
+        color: #a08350;
+        padding-bottom: 30px;
+        padding-left: 5%;
+      }
+      footer {
+        color: #a08350;
+        margin-top: 2%;
+        font-size: 13px;
+        margin-bottom: 2%;
+  
+    }
+
